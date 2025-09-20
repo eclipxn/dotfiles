@@ -1,0 +1,100 @@
+(defpoll hour :interval "5s"
+`date +%I`)
+
+(defpoll minute :interval "5s"
+`date +%M`)
+
+(defpoll timethingy :interval "5s"
+`date +%p`)
+
+(defwidget time []
+   (box :orientation "v"
+      :valign "start"
+      :halign "center"
+      (box :class "hour"
+         :valign "start"
+         :halign "end"
+         hour
+      )
+      (box :class "minute"
+         :valign "start"
+         minute
+      )
+      (box :class "timethingy"
+         :valign "start"
+         timethingy
+      )
+   )
+)
+
+; (defpoll percenttime :interval "1s"
+;    `v=$(mpc status %percentttime%) && echo ${v[1]}`)
+
+(defpoll status :interval "1s"
+`mpc status %state%`)
+
+(defwidget music []
+   (box :orientation "v"
+      :halign "center"
+      (progress :class "progressbar" 
+         :orientation "v"
+         :width 12
+         :height 450
+         :value "$percenttime"
+      )
+   )
+)
+
+(defwidget buttons []
+   (box :class "controls"
+      :orientation "v"
+      :halign "center"
+      :valign "end"
+      :height 120
+      :width 54
+      :spacing 6
+      (button 
+         :class "${status == "playing" ? "button1playing" : "button1paused"}"
+         :onclick "mpc toggle")
+      (button 
+         :class "button2"
+         :onclick "mpc next")
+   )
+)
+
+(defwidget name []
+(box :class "name"
+     :orientation "v"
+     :height 400
+     :width 50
+     "H"
+     "Y"
+     "A"
+     "C"
+     "I"
+     "N"
+     "T"
+     "H"
+)
+)
+
+(defwidget bar []
+   (centerbox :orientation "v"
+      :class "bar"
+      :width 80
+      (time)
+      (name)
+      (buttons)))
+
+(defwindow panel
+   :monitor 0
+   :geometry (geometry :x "0px"
+                       :y "0px"
+                       :width "0px"
+                       :height "100%"
+                       :anchor "top left")
+   :stacking "fg"
+   :reserve (struts :distance "160px" :side "left")
+   :windowtype "dock"
+   :wm-ignore false
+(bar))
