@@ -1,4 +1,4 @@
-Config files for my desktop. I call it Hyacinth. Probably won't make this public.
+Config files for my desktop. Probably won't make this public.
 <br>
 + **wallpaper**: an edit of someone else's fractal
 + **colorscheme**: custom, i call it 'hyacinth'
