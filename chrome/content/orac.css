@@ -1,0 +1,33 @@
+@-moz-document url-prefix("https://orac2.info"), url-prefix("https://orac.amt.edu.au/") {
+   body {
+      background-color: var(--bg) !important;
+   }
+   #outerContainer {
+      #mainContainer {
+         div.toolbar {
+            display: none !important;
+         }
+
+         #viewerContainer {
+            top: 0 !important;
+            inset-inline-start: 0 !important;
+            scrollbar-width: none !important;
+            width: 918px !important;
+            margin: auto !important;
+            #viewer {
+               --scale-factor: 1.5 !important;
+               filter: invert(88%) sepia(100%) hue-rotate(203deg) contrast(108%) saturate(170%);
+               .page {
+                  margin: 0 !important;
+                  border: 0 !important;
+                  border-bottom: var(--page-border);
+               }
+            }
+         }
+      }
+
+      #sidebarContainer {
+         display: none !important;
+      }
+   }
+}

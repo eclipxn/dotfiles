@@ -1,0 +1,16 @@
+@-moz-document url("about:privatebrowsing") {
+   :root {
+      background-color: #1c1c31 !important;
+   }
+   .showPrivate.showSearch.container {
+      visibility: hidden;
+      text-align: center;
+      height: 20px;
+   }
+   .showPrivate.showSearch.container::before {
+      visibility: visible; 
+      content: "private browsing :3";
+      color: #da96ff;
+      font-size: 20px;
+   }
+}

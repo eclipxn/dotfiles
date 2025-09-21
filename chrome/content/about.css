@@ -1,0 +1,6 @@
+@-moz-document url-prefix(about:) {
+   * {
+     font-family: var(--tf-font-family) !important;
+   }
+ }
+ 

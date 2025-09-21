@@ -1,0 +1,13 @@
+# Target labels
+ libvterm
+# Source files and their labels
+/home/eclipxn/.emacs.d/elpa/vterm-20241218.331/build/CMakeFiles/libvterm
+/home/eclipxn/.emacs.d/elpa/vterm-20241218.331/build/CMakeFiles/libvterm.rule
+/home/eclipxn/.emacs.d/elpa/vterm-20241218.331/build/CMakeFiles/libvterm-complete.rule
+/home/eclipxn/.emacs.d/elpa/vterm-20241218.331/build/libvterm-prefix/src/libvterm-stamp/libvterm-build.rule
+/home/eclipxn/.emacs.d/elpa/vterm-20241218.331/build/libvterm-prefix/src/libvterm-stamp/libvterm-configure.rule
+/home/eclipxn/.emacs.d/elpa/vterm-20241218.331/build/libvterm-prefix/src/libvterm-stamp/libvterm-download.rule
+/home/eclipxn/.emacs.d/elpa/vterm-20241218.331/build/libvterm-prefix/src/libvterm-stamp/libvterm-install.rule
+/home/eclipxn/.emacs.d/elpa/vterm-20241218.331/build/libvterm-prefix/src/libvterm-stamp/libvterm-mkdir.rule
+/home/eclipxn/.emacs.d/elpa/vterm-20241218.331/build/libvterm-prefix/src/libvterm-stamp/libvterm-patch.rule
+/home/eclipxn/.emacs.d/elpa/vterm-20241218.331/build/libvterm-prefix/src/libvterm-stamp/libvterm-update.rule

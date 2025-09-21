@@ -1,0 +1,55 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Sep  6 20:01:09 2025
+;; Desktop file format version 208
+;; Emacs version 29.3
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (26812 1637 302922 913000) (desktop . "208") "eclipxn@Pico" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-JB-JetBrains Mono-regular-normal-normal-*-32-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#d7def5") (background-color . "#202033") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 30) (right-fringe . 30) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tab-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 32) (scroll-bar-height . 32) (alpha) (alpha-background) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (use-frame-synchronization) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#d3d3d3") (font-parameter) (sticky) (shaded) (environment) (dnd-root-window-position) (last-focus-update . t) (frameset--id . "D7E4-C3F8-F160-4957") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (frameset--text-pixel-width . 1596) (frameset--text-pixel-height . 1118) (height . 26) (width . 84) (left . 832) (top . 76)) ((min-height . 4) (min-width . 10) (min-height-ignore . 1) (min-width-ignore . 9) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 172) (min-pixel-width . 190) (min-pixel-height-ignore . 43) (min-pixel-width-ignore . 171) (min-pixel-height-safe . 43) (min-pixel-width-safe . 38)) leaf (pixel-width . 1656) (pixel-height . 1075) (total-width . 87) (total-height . 25) (normal-height . 1.0) (normal-width . 1.0) (buffer "userChrome.css" (selected . t) (hscroll . 0) (fringes 30 30 nil nil) (margins 3) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 346) (start . 1)) (prev-buffers ("init.el" 1781 2540))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("font" "C-n" "backward-jump" "font" "emacs" "title" "desktop" "\\(initial\\).*?\\(frame\\)" "S-<tab>" "C-S-l" "C" "\\(truncate\\).*?\\(lines\\)" "indent" "vterm" "C-n" "indent-buffer"))
+(setq register-alist '((48 . #("var(--tf-font-size)" 0 4 (fontified t) 4 18 (face font-lock-variable-name-face fontified t) 18 19 (fontified t)))))
+(setq file-name-history '("~/.mozilla/firefox/h041k2uv.default-release/chrome/userChrome.css" "~/.emacs.d/init.el" "~/.emacs.d/awu^2-theme.el" "~/.emacs.d/init.el" "~/.emacs.d/awu^2-theme.el" "~/.emacs.d/" "~/info/misc/robot.cpp" "~/info/misc/" "~/info/misc./testnewfile.cpp" "/usr/share/themes/Catppuccin-Mocha-Standard-Mauve-Dark/gtk-3.0/gtk.css" "/usr/share/themes/Catppuccin-Mocha-Standard-Mauve-Dark/cinnamon/cinnamon.css" "~/downloads/mc-4.8.33/src/filemanager/boxes.c" "~/downloads/mc-4.8.33/src/textconf.c" "~/downloads/mc-4.8.33/src/main.c" "~/downloads/mc-4.8.33/src/background.c" "~/downloads/mc-4.8.33/src/textconf.c" "~/downloads/mc-4.8.33/Makefile.am" "~/downloads/mc-4.8.33/configure.ac" "~/downloads/mc-4.8.33/README" "/usr/bin/mc" "~/.config/kitty/kitty.conf" "~/.config/mc/menu" "~/.config/mc/mc.ext.ini" "~/info/misc./final.cpp" "~/.config/mc/mc.ext.ini" "~/.config/mc/.mc.ext.ini.swp" "~/.config/mc/mc.ext.ini" "~/.config/mc/panels.ini" "~/.config/mc/ini" "~/.config/mc/panels.ini" "~/.emacs.d/awu^2-theme.el" "~/info/misc./aud.cpp" "~/.emacs.d/init.el" "~/.emacs.d/awu^2-theme.el" "~/.emacs.d/" "~/.emacs.d/awu^2-theme.el" "~/.emacs.d/" "~/info/misc./aud.cpp" "~/info/misc./" "~/.emacs.d/awu^2-theme.el" "~/.emacs.d/" "~/info/misc./aud.cpp" "~/.emacs.d/awu^2-theme.el" "~/.emacs.d/" "~/.emacs.d/awu^2-theme.el" "~/.emacs.d/init.el" "~/.bashrc" "~/downloads/input-sink-lockscreen.sh" "~/.config/kitty/colors.conf" "~/.config/kitty/kitty.conf" "~/.config/eww/widgets/circular-symbol-icon.scss" "~/.config/eww/windows/powermenu.yuck" "~/.config/kitty/kitty.conf" "~/info/misc./aud.cpp" "~/info/misc./" "~/Documents/informatics/misc./aud.cpp" "~/Documents/informatics/misc./" "~/.emacs.d/" "~/.emacs.d/init.el" "~/emacs.d/init.el" "~/.emacs.d/init.el" "~/.emacs.d/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/eclipxn/.mozilla/firefox/h041k2uv.default-release/chrome/userChrome.css"
+  "userChrome.css"
+  'css-mode
+  '(font-lock-mode nlinum-mode dtrt-indent-mode highlight-numbers-mode)
+  346
+  '(360 nil)
+  nil
+  nil
+  '((buffer-display-time 26812 1555 522963 229000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (323 324 382 382 304 308 324 323 360 323 346 346))))
+
+(desktop-create-buffer 208
+  "/home/eclipxn/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(highlight-numbers-mode eldoc-mode font-lock-mode nlinum-mode dtrt-indent-mode)
+  2540
+  '(14 nil)
+  nil
+  nil
+  '((buffer-display-time 26812 1555 303504 508000) (buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines))
+  '((mark-ring (11513 9835 4104 2071 1438 1532 17215 17121 41 17831 17040 17380 11330 17561 17379 17556))))
+
+(desktop-create-buffer 208
+  "/home/eclipxn/.emacs.d/awu^2-theme.el"
+  "awu^2-theme.el"
+  'emacs-lisp-mode
+  '(highlight-numbers-mode eldoc-mode font-lock-mode nlinum-mode dtrt-indent-mode)
+  4459
+  '(3709 nil)
+  nil
+  nil
+  '((buffer-display-time 26812 1555 270938 759000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
+
