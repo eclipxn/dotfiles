@@ -1,9 +1,0 @@
-* {
-  all: unset;
-}
-
-@import "windows/sidebar.css";
-
-window {
-  background: transparent;
-}

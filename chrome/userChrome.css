@@ -1,1 +1,24 @@
+@import url("chrome/browser.css");
+@import url("chrome/findbar.css");
+@import url("chrome/icons.css");
+@import url("chrome/menus.css");
+@import url("chrome/navbar.css");
+@import url("chrome/sidebar.css");
+@import url("chrome/tabs.css");
+@import url("chrome/urlbar.css");
 
+@import url("defaults.css");
+@import url("chrome/config.css");
+
+* {
+  font-family: var(--tf-font-family);
+  font-size: var(--tf-font-size);
+}
+
+body {
+  background-color: var(--tf-bg);
+}
+
+::placeholder {
+  text-transform: lowercase;
+} 
