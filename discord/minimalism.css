@@ -1,0 +1,156 @@
+/**
+ * @name minimalism
+ * @description hides a lotta stuff
+ * @author eclixpn
+ * @version 1.0
+ */
+
+.cozy_c19a55 {
+    padding-left: 1.5rem !important;
+    .repliedMessageClickableSpine_c19a55,
+    img.replyAvatar_c19a55.clickable_c19a55 {
+        display: none;
+    }
+   .contents_c19a55 {
+       .avatar_c19a55,
+       .avatarDecoration_c19a55,
+       .timestamp_c19a55.alt_c19a55 {
+           display: none;
+       }
+       .username_c19a55 {
+           color: #da96ff !important;
+       }
+   }
+}
+.clanTag__972a0,
+.clanTagChiplet_c19a55 {
+  display: none;
+}
+
+
+.upperContainer__9293f {
+    .iconWrapper__9293f[aria-label="Add Friends to DM"],
+    .iconWrapper__9293f[aria-label="Show User Profile"],
+    .iconWrapper__9293f.iconDisabled__9293f {
+        display: none;
+    }
+}
+
+
+.buttons__37e49 {
+    .micButtonParent__37e49,
+    button[role="switch"] {
+        display: none;
+    }
+}
+
+
+.layout__20a53 {
+    .avatar__20a53 {
+        display: none;
+    }
+}
+.content__20a53 {
+    color: #cbd5f6;
+}
+.layout__20a53:has(.avatar__20a53 svg rect[mask="url(#svg-mask-status-online)"]),
+.layout__20a53:has(.avatar__20a53 svg foreignObject[mask="url(#:r3eh:)"]) {
+    .content__20a53 {
+        color: #acfab5 !important;
+    }
+}
+.layout__20a53:has(.avatar__20a53 svg rect[mask="url(#svg-mask-status-online-mobile)"]) {
+    .content__20a53 {
+        color: #ddf497 !important;
+    }
+}
+.layout__20a53:has(.avatar__20a53 svg rect[mask="url(#svg-mask-status-dnd)"]),
+.layout__20a53:has(.avatar__20a53 svg foreignObject[mask="url(#:r2ae:)"]),
+.layout__20a53:has(.avatar__20a53 svg foreignObject[mask="url(#:r3cv:)"]) {
+    .content__20a53 {
+        color: #ff8dd7 !important;
+    }
+}
+.layout__20a53:has(.avatar__20a53 svg rect[mask="url(#svg-mask-status-idle)"]),
+.layout__20a53:has(.avatar__20a53 svg g rect[mask="url(#:r2ad:)"]) {
+    .content__20a53 {
+        color: #93e5e0 !important;
+    }
+}
+.layout__20a53:has(.avatar__20a53 svg rect[mask="url(#svg-mask-status-offline)"]),
+.layout__20a53:has(.avatar__20a53 svg g rect[mask="url(#:r29e:)"]),
+.layout__20a53:has(.avatar__20a53 svg foreignObject[mask="url(#:r3cq:)"]) {
+    .content__20a53 {
+        color: #9098b6 !important;
+    }
+}
+
+
+.content__99f8c[aria-label="Members"] {
+    .membersGroup_c8ffbb:has(.headerContainer__095fe),
+    .container__0f2e8
+     {
+        display: none;
+    }
+}
+
+
+
+
+.privateChannelsHeaderContainer__99e7c {
+    border-top: 1px solid #2d2f48;
+    height: 2rem;
+    padding-top: 0.5rem;
+}
+.friendsButtonContainer__35e86 {
+    padding-bottom: 0.5rem;
+}
+.sectionDivider__35e86 {
+    display: none;
+}
+
+
+
+.emoji_c9d15c {
+    display: none;
+}
+.linkTop__2ea32 {
+    .iconContainer__2ea32 {
+        display: none;
+    }
+}
+
+
+.folderPreviewWrapper__48112 {
+    border-radius: 6px;
+    .folderPreview__48112 {
+        gap: 4px;
+        .icon_f34534 {
+            width: 18px;
+            height: 18px;
+            border-radius: 6px;
+            background-image: none !important;
+            &:nth-child(1) {
+                background-color: #da96ff;
+            }
+            &:nth-child(2) {
+                background-color: #94b1ff;
+            }
+            &:nth-child(3) {
+                background-color: #acfab5;
+            }
+            &:nth-child(4) {
+                background-color: #93e5e0;
+            }
+       }
+   }
+}
+.stack_dbd263[aria-label="Servers"] {
+    .wrapper__6e9f8:not(:has(.acronym__6e9f8)) {
+      .icon__6e9f8 {
+          display: none;
+      }
+      border-radius: 6px;
+      background-color: #ff8dd7; 
+   }
+}

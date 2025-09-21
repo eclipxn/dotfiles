@@ -1,0 +1,49 @@
+/**
+ * @name tweaks
+ * @description minor tweaks
+ * @author eclipxn
+ */
+
+
+:root {
+   --custom-emoji-size-jumbo-emoji: 32px;
+   --custom-channel-textarea-text-area-height: 40px;
+}
+
+.chatGradient__36d07 {
+   display: none;
+}
+.align-chat-input .attachWrapper__0923f {
+   padding: 0;
+   margin: auto;
+   margin-left: 0.5rem;
+}
+
+.bar_c38106 {
+   display: none;
+}
+.searchBar__35e86 {
+   display: none;
+}
+.sidebarList_c48ade.sidebarListRounded_c48ade {
+   padding-top: 0px !important;
+}
+.friendsButtonContainer__35e86 .channel__972a0:not(.dm__972a0) {
+   height: 2rem !important;
+   display: block;
+}
+.channel__972a0:not(.dm__972a0) {
+   display: none;
+}
+.itemsContainer_ef3116 {
+   margin-top: 8px;
+}
+
+.scrollableContainer__74017.themedBackground__74017 {
+   margin-right: 0 !important;
+}
+.button__74017.button__24af7[aria-label="Send a gift"],
+.button__74017.button__24af7[aria-label="Open GIF picker"],
+.channelAppLauncher_e6e74f {
+   display: none;
+}
