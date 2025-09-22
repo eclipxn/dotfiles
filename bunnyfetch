@@ -33,12 +33,7 @@ resolution="$(xwininfo -root | grep geometry | awk '{print $2}' | cut -d + -f1)"
 sh=
 shell=$(basename $SHELL)
 
-if [ -f /etc/os-release ]; then
-    # freedesktop.org and systemd
-    . /etc/os-release
-    osname=$NAME
-    VER=$VERSION_ID
-fi
+osname=$(cat /etc/*-release | grep "PRETTY_NAME" | sed 's/PRETTY_NAME=//g' | sed 's/"//g')
 
 # (\ /)
 # ( · ·)
@@ -52,7 +47,7 @@ tput clear
 cat << EOF
 
              $d$f1◆  $t$osname
-   (\ /)     $f6◆  $t$wmname
+   (\ /)     $f3◆  $t$wmname
    ( $d. .$t)    $f2◆  $t$kernel
    c($f1"$t)($f1"$t)   $f5◆  $t$shell
              $f4◆  $t$resolution
