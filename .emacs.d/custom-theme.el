@@ -1,6 +1,6 @@
 (require 'autothemer)
 
-(autothemer-deftheme awu^2 "awu^2"
+(autothemer-deftheme hyacinth "hyacinth"
                      ((((class color) (min-colors #xFFFFFF)))
                       ;; (bg "#302b40")
                       ;; (bg "#1d203a")
@@ -88,4 +88,4 @@
                       (company-tooltip-mouse (:background "#433a59"))
                       ))
 
-(provide-theme 'awu^2)
+(provide-theme 'hyacinth)
