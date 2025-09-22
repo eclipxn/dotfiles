@@ -2,7 +2,7 @@
 
 (setq custom-safe-themes t)
 (use-package autothemer)
-(load-theme 'awu^2)
+(load-theme 'custom-theme)
 
 (set-cursor-color "#d3d3d3")
 
